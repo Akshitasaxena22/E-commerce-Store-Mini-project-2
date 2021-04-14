@@ -1,13 +1,11 @@
 import React from 'react';
 import '../../App.css';
 
-
-
 export default function Services() {
   return(
     <>
-      <h1 className='services'>About Us</h1>;
-      <div className="container">
+      <h1 className='services'>About Us</h1>
+      <div className="container border border-secondary rounded my-4" style={{backgroundColor: "#e3f2fd"}}>
         <ul class="list-unstyled">
           <li class="media my-5">
             <img class="mr-3 align-self-center" src="..." alt="Generic placeholder image"/>
