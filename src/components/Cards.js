@@ -13,13 +13,13 @@ function Cards() {
               src='https://images.unsplash.com/photo-1617892262807-551053a8cfdf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
-              path='/services'
+              path='/details'
             />
             <CardItem
               src='../images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
-              path='/services'
+              path='/details'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +27,19 @@ function Cards() {
               src='../images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
-              path='/services'
+              path='/details'
             />
             <CardItem
               src='../images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-              path='/products'
+              path='/details'
             />
             <CardItem
               src='../images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/sign-up'
+              path='/details'
             />
           </ul>
         </div>
