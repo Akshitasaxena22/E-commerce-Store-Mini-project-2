@@ -10,36 +10,34 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='https://images.unsplash.com/photo-1617892262807-551053a8cfdf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/details'
+              src='https://analyticsindiamag.com/wp-content/uploads/2019/12/How-SMBs-In-India-Can-Unlock-Their-Potential-With-Analytics.jpg'
+              text=''
+              path=''
             />
             <CardItem
-              src='../images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/details'
+              src='https://images.unsplash.com/photo-1587127964224-ee5b0a61933d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhemFhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+              text=''
+              path=''
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='../images/img-3.jpg'
+              src='https://i2.wp.com/ttim.photo/wp-content/uploads/2016/12/Closeup-of-Young-Woman-at-Fortress-Gate-Jodhpur-India-Copyright-2016-Ralph-Velasco.jpg?resize=750%2C500'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/details'
-            />
+              label='Review 1'
+              path=''
+             />
             <CardItem
-              src='../images/img-4.jpg'
+              src='https://miro.medium.com/max/625/1*ltUNWd5KLkaZB8bIrUxQ1Q.jpeg'
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/details'
+              label='Review 2'
+              path=''
             />
             <CardItem
-              src='../images/img-8.jpg'
+              src='https://media.gettyimages.com/photos/young-woman-selling-clothes-at-a-shopping-mall-picture-id471760764?s=612x612'
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/details'
+              label='Review 3'
+              path=''
             />
           </ul>
         </div>
