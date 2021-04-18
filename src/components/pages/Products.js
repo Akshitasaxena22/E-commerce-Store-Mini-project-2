@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
-
+import {Link} from 'react-router-dom';
 
 const arr=[0];
 
@@ -13,6 +13,7 @@ const cardItem=arr.map((item,index)=>{
            <div class="card-body">
       <h5 class="card-title"><u>NADI HANDICRAFT</u></h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <Link to="/Details" class="btn btn-primary">Place Order</Link>
            </div>
     
     </div>
@@ -21,6 +22,7 @@ const cardItem=arr.map((item,index)=>{
     <div class="card-body">
       <h5 class="card-title"><u>MAHALAXMI SPORTS</u></h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     
   </div>
@@ -29,6 +31,7 @@ const cardItem=arr.map((item,index)=>{
     <div class="card-body">
       <h5 class="card-title"><u>FILZE SHOES</u></h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     
   </div>
@@ -47,6 +50,7 @@ const cardItem1=arr.map((item,index)=>{
       <h5 class="card-title"><u>POTTERY US</u></h5>
       <p class="card-text">It is one of the oldest and most widespread of the decorative arts, consisting of objects made of clay and hardened with heat.
        The objects made are commonly useful ones, such as vessels for holding liquids or plates or bowls from which food can be served.</p>
+       <Link to="/Details" class="btn btn-primary">Place Order</Link>
            </div>
     
     </div>
@@ -55,6 +59,7 @@ const cardItem1=arr.map((item,index)=>{
     <div class="card-body">
       <h5 class="card-title"><u>SARIKA SARI</u></h5>
       <p class="card-text">Sarika Fashion deals in full variety of Indian Sarees, Lehenga, Odhani, Western dresses, Wedding dresses, etc...</p>
+      <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     
   </div>
@@ -63,6 +68,7 @@ const cardItem1=arr.map((item,index)=>{
     <div class="card-body">
       <h5 class="card-title"><u>STYLE WAREHOUSE</u></h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     
   </div>
