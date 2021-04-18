@@ -12,7 +12,7 @@ const cardItem=arr.map((item,index)=>{
            <img src="https://www.thelostpassport.com/wp-content/uploads/2020/04/Nadi-Handicraft-Market.jpg" class="card-img-top" alt="..."/>
            <div class="card-body">
       <h5 class="card-title"><u>NADI HANDICRAFT</u></h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">We in Nadi handicraft provide our customers 100% authentic and handmade products. Client satisfaction and best services are our motto</p>
       <Link to="/Details" class="btn btn-primary">Place Order</Link>
            </div>
     
@@ -21,7 +21,7 @@ const cardItem=arr.map((item,index)=>{
     <img src="https://www.aljazeera.com/wp-content/uploads/2020/12/India-small-business-Manohar-Wagle-by-Tish-Sanghera.jpg?w=770&resize=770%2C578" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title"><u>MAHALAXMI SPORTS</u></h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">We are running this business since 1980s and providing best sports items to our customers.</p>
       <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     
@@ -29,8 +29,8 @@ const cardItem=arr.map((item,index)=>{
   <div class="card">
     <img src="https://media.istockphoto.com/photos/young-man-selling-shoes-at-a-shopping-mall-picture-id471204312?k=6&m=471204312&s=612x612&w=0&h=L1NCa0_Fr6D_2i5iLr8Lf0EMJVId5tWyTJHZ6ZwFBg8=" class="card-img-top" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title"><u>FILZE SHOES</u></h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title"><u>FILEZ SHOES</u></h5>
+      <p class="card-text">Do you want trendy yet bugdet friendly shoesware? We at Feliz shoes, will provide you just with this.</p>
       <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     
@@ -67,7 +67,7 @@ const cardItem1=arr.map((item,index)=>{
     <img src="https://images.unsplash.com/photo-1574705477102-1ff256153d63?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGluZGlhbiUyMG1hcmtldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title"><u>STYLE WAREHOUSE</u></h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">This is a one stop place, where you will find every clothing item for daily wear, party, functions or any other rendezvous.</p>
       <Link to="/Details" class="btn btn-primary">Place Order</Link>
     </div>
     

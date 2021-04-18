@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-    background: url('../images/img-home.jpg') center center/cover no-repeat;
+    background: url('https://bel-india.com/wp-content/uploads/2019/02/Small-Business-in-India-2-1024x682.jpg') center center/cover no-repeat;
     height: 80vh;
     width: 100%;
     display: flex;
