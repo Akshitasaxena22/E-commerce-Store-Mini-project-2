@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Details(props) {
     return (
@@ -28,7 +29,7 @@ function Details(props) {
                         <label for="exampleFormControlTextarea1">Item Description</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                     </div>
-                    <button type="submit" class="btn text-uppercase" style={{backgroundColor: "#90caf9", color: "white"}}>Submit</button>
+                    <Link to="/products" class="btn text-uppercase btn-primary">Submit</Link>
                 </form>
             </div>
         </div>

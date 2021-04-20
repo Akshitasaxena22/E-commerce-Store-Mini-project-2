@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1>HawkerIn</h1>
-      <p>Helping local businesses since always</p>
+      <p className="text-center">Helping local businesses since always</p>
     </div>
   );
 }
