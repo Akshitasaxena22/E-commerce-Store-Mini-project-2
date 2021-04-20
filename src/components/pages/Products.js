@@ -1,12 +1,10 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import {Link} from 'react-router-dom';
 
-const arr=[0];
 
-const cardItem=arr.map((item,index)=>{
-  return(
+
+const cardItem=(
     <div class="card-deck">
       <div class="card">
            <img src="https://www.thelostpassport.com/wp-content/uploads/2020/04/Nadi-Handicraft-Market.jpg" class="card-img-top" alt="..."/>
@@ -37,12 +35,11 @@ const cardItem=arr.map((item,index)=>{
   </div>
 </div>
   );
-})
 
 
 
-const cardItem1=arr.map((item,index)=>{
-  return(
+
+const cardItem1=(
     <div class="card-deck">
       <div class="card">
            <img src="https://analyticsindiamag.com/wp-content/uploads/2019/12/How-SMBs-In-India-Can-Unlock-Their-Potential-With-Analytics.jpg" class="card-img-top" alt="..."/>
@@ -74,7 +71,7 @@ const cardItem1=arr.map((item,index)=>{
   </div>
 </div>
   );
-})
+
 
 export default function Products() {
   return(
